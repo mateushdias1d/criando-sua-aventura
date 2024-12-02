@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+  <main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.png" alt="">
+        <p>Um certo dia, alguns turistas estavam preparando uma viagem para um museu em São Paulo, buscando entender a história da cidade. Para qual eles devem ir primeiro?</p>
+        <button class="btn-proximo" data-proximo="1">Museu de Arte de São Paulo (MASP)</button>
+        <button class="btn-proximo" data-proximo="2">Museu Catavento</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>Chegando ao MASP, notaram que o museu era mais focado em obras artísticas do que na história da cidade propriamente dita.</p>
+        <button class="btn-proximo" data-proximo="3">Ir para o Museu Catavento em busca da história</button>
+        <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <p>Chegando ao Museu Catavento, eles encontram o que queriam. Por onde eles começam a exploração?</p>
+        <button class="btn-proximo" data-proximo="5">Patrimônios culturais</button>
+        <button class="btn-proximo" data-proximo="6">Fotografias da formação da cidade</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>Eles registram suas explorações e, assim, no dia do Aniversário da cidade de São Paulo, eles organizam uma exposição pública reunindo os principais fatores da constituição da cidade. </p>
+    </div>
+    
+</main>  
+<script src="script.js"></script>
+</body>
+</html>
